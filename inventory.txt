@@ -1,0 +1,150 @@
+import java.util.Scanner;
+public class HelloWorld {
+  public static void main(String[] args) {
+    Scanner x = new Scanner(System.in);
+    double item;
+    String ntbk = "1. Filler notebook";
+    String ccake = "2. Lemon Square Cheesecake";
+    String bpen = "3. Ballpen";
+    String eraser ="4. Eraser";
+    String ear = "5. Earphones";
+    String wallet = "6. Wallet";
+    String flash = "7. Flash drive";
+    String mnl = "8. Manila paper";
+    String oreo = "9. Oreo 3pcs.";
+    String juice = "10. Zest-o juice";
+    
+    double ntbkp =  15;
+    double ccakep = 10;
+    double pen = 8;
+    double eraserp = 20;
+    double earp=150;
+    double walletp=40;
+    double flashp=170;
+    double mnlp=12;
+    double oreop=18;
+    double juicep=8;
+    double payment;
+    double quantity;
+    
+    
+    
+    System.out.println("STI Store");
+    System.out.println("Products:			Price(PHP):");
+    System.out.println(ntbk +"     		 "+ ntbkp);
+    System.out.println(ccake +"        "+ ccakep);
+    System.out.println(bpen +"    			 "+ pen);
+    System.out.println(eraser +"    			 "+ eraserp);
+    System.out.println(ear +"  		         "+ earp);
+    System.out.println(wallet +"      			"+ walletp);
+    System.out.println(flash +"    	    	"+ flashp);
+    System.out.println(mnl +"      		"+ mnlp);
+    System.out.println(oreo+"      		"+ oreop);
+    System.out.println(juice +"      		"+ juicep);
+    System.out.println("Select the item you like by picking the corresponding number");
+    
+    
+    item = x.nextDouble();
+    
+    if (item== 1){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(ntbkp*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double ntbkt= ntbkp * quantity;
+    	System.out.println("Your change is:"+(payment - ntbkt));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	   if (item== 2){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(ccakep*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double ccaket= ccakep * quantity;
+    	System.out.println("Your change is:"+(payment - ccaket));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	   if (item== 3){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(pen*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double pent= pen * quantity;
+    	System.out.println("Your change is:"+(payment - pent));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	    if (item== 4){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(eraserp*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double erasert= eraserp * quantity;
+    	System.out.println("Your change is:"+(payment - erasert));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	    if (item== 5){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(earp*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double eart= earp * quantity;
+    	System.out.println("Your change is:"+(payment - eart));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	    if (item== 6){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(walletp*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double wallett= walletp * quantity;
+    	System.out.println("Your change is:"+(payment - wallett));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	    if (item== 7){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(flashp*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double flasht= flashp * quantity;
+    	System.out.println("Your change is:"+(payment - flasht));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	    if (item== 8){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(mnlp*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double mnlt= mnlp * quantity;
+    	System.out.println("Your change is:"+(payment -mnlp));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	    if (item== 9){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(oreop*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double oreot= oreop * quantity;
+    	System.out.println("Your change is:"+(payment - oreot));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+    	    if (item== 10){
+    	System.out.println("How many?");
+    	quantity = x.nextDouble();
+    	System.out.println(juicep*quantity);
+    	System.out.println("Please put your payment");
+    	payment = x.nextDouble();
+    	double juicet= juicep * quantity;
+    	System.out.println("Your change is:"+(payment - juicet));
+    	System.out.println("Transaction completed. Please buy again!");
+    	   }
+  }
+}
